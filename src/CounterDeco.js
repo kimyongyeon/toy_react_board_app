@@ -19,6 +19,7 @@ class CounterDeco extends Component {
     render() {
         return (
             <div>
+                <h1>Mobx + Deco generator</h1>
                 <h1>{this.number}</h1>
                 <button onClick={this.increase}>+1</button>
                 <button onClick={this.decrease}>-1</button>
