@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
+import {inject, observer} from "mobx-react";
 
+@inject('board')
+@observer
 class BoardList extends Component {
 
     constructor(props) {
@@ -23,44 +26,33 @@ class BoardList extends Component {
     }
 
     render() {
+        const { board } = this.props;
+        const boardList = board.get();
 
-        // context-api 로 빼야 한다.
-        const BOARD_LIST = [
-            {
-                no: 1,
-                title: "제목 1",
-                writer: "글쓴이 1",
-                viewCount: 1
-            },
-            {
-                no: 2,
-                title: "제목 2",
-                writer: "글쓴이 2",
-                viewCount: 2
-            },
-            {
-                no: 3,
-                title: "제목 3",
-                writer: "글쓴이 3",
-                viewCount: 3
-            },
-        ]
+        console.log(boardList);
+        boardList.map(b => {
+            console.log(b.no)
+        })
 
         return (
-            <div>
-                <table>
+            <div className="container">
+                <table className="table">
+                    <thead>
                     <tr>
                         <td>순번 <input type="checkbox"/></td>
                         <td>제목</td>
                         <td>글쓴이</td>
                         <td>조회수</td>
                     </tr>
-                    {BOARD_LIST.map(b => <tr key={b.no}>
+                    </thead>
+                    <tbody>
+                    {boardList.map(b => <tr key={b.no}>
                         <td>{b.no} <input type="checkbox"/></td>
                         <td>{b.title} </td>
                         <td>{b.writer} </td>
                         <td>{b.viewCount} </td>
                     </tr>)}
+                    </tbody>
                 </table>
                 <button onClick={this.handlerRemove}>삭제</button>
             </div>
