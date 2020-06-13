@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e0855b56-4318-4b06-9e2f-4505f7bce7b0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/stores/board.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -10,6 +11,15 @@
       <change beforePath="$PROJECT_DIR$/src/BoardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="e0855b56-4318-4b06-9e2f-4505f7bce7b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="e0855b56-4318-4b06-9e2f-4505f7bce7b0" name="Default Changelist" comment="" />
+>>>>>>> 05ff2d3b033bdf9b7e0adafd1e52284af4ec5a62
+>>>>>>> 6d76773012b5b4a709f925c237aee0816ff88c4b
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +83,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591796293768</updated>
+<<<<<<< HEAD
+      <workItem from="1591796294949" duration="1577000" />
+      <workItem from="1591841457330" duration="7426000" />
+=======
       <workItem from="1591796294949" duration="1743000" />
+<<<<<<< HEAD
       <workItem from="1591871789660" duration="6895000" />
       <workItem from="1591954852959" duration="1398000" />
       <workItem from="1592009249521" duration="742000" />
       <workItem from="1592050796821" duration="535000" />
+=======
+>>>>>>> 05ff2d3b033bdf9b7e0adafd1e52284af4ec5a62
+>>>>>>> 6d76773012b5b4a709f925c237aee0816ff88c4b
     </task>
     <servers />
   </component>
