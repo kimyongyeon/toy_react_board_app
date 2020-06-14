@@ -5,6 +5,7 @@ import BoardDetail from "./BoardDetail";
 import Counter from "./Counter";
 import CounterDeco from "./CounterDeco";
 import CounterInject from "./CounterInject";
+import Todo from "./Todo";
 
 function App() {
     return (
@@ -29,6 +30,9 @@ function App() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/counterInject">[카운터3 - 스토어 + 로직 분리]</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/todo">Todos</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -38,6 +42,7 @@ function App() {
                 <Route path='/counter' component={Counter}/>
                 <Route path='/counterDeco' component={CounterDeco}/>
                 <Route path='/counterInject' component={CounterInject}/>
+                <Route path='/todo' component={Todo}/>
             </div>
         </Router>
     );
